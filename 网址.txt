@@ -6,3 +6,5 @@ vim-plug 下载指南：https://github.com/junegunn/vim-plug
 vim 插件下载网站：https://vimawesome.com/
 
 下qq、vx等神器：https://spark-app.store/
+
+ubuntu-vim-plug:https://github.com/loverHaoCheng/ubuntu-vim
