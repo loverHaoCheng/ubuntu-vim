@@ -40,9 +40,17 @@ command Wq wq
 command Q q
 command WQ wq
 
+"修改herdtree的默认箭头
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+"当不是编辑窗口时自动退出vim
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
 "自动启动NERDTree
-""autocmd VimEnter * NERDTree
+autocmd VimEnter * NERDTree
+"设置nerdtree的宽度
+let g:NERDTreeWinSize=15
+
 call plug#begin()
     Plug 'scrooloose/nerdtree'
     ""vim开始菜单
