@@ -7,4 +7,6 @@ vim 插件下载网站：https://vimawesome.com/
 
 下qq、vx等神器：https://spark-app.store/
 
-ubuntu-vim-plug:https://github.com/loverHaoCheng/ubuntu-vim
+my vim setting:https://github.com/loverHaoCheng/ubuntu-vim
+
+github 本地上传代码配置: https://docs.qq.com/doc/p/e68a0b8bf2e824a29a6ffde124d926b8b9c0875d?dver=2.1.27328490
